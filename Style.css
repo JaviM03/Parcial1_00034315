@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: black;
+   background-color: black;
    } 
    body{
        text-align: center;
@@ -47,22 +47,56 @@
 
     }
 
-    .container{
+    #container{
         display: grid;
         grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: white;
     padding: 10px;
+    text-decoration: none;
     }
-    .container > div {
-        background-color: rgba(255, 255, 255, 0.8);
+    #container > div {
+        
         text-align: center;
         padding: 20px 0;
         font-size: 30px;
+        background-color: white;
+      }
+      #container >div >figcaption{
+          background-color: white;
+          color:white;
       }
     main article section div div img{
-        height:50em;
+        height:10em;
     }
     main{
         background-color: white;
+    }
+    button{
+        margin: 1px solid ;
+        background-color: orange;
+    }
+
+    .pie{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .pie > div {
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+    }
+
+    .container2{
+        display:grid;
+        
+        grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
     }

@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   } 
+   
+    .navbar{
+       
+        background-color: black;
+        margin-bottom: 2%;
+        padding:1%;
+   
+    }
+   .navbar ul {
+
+    display: inline;
+    padding: 20px;
+    margin-left: 5%;
+       
+   }
+   .nav ul li{
+       display: inline;
+   }
+   .navbar ul li img{
+       height: 50px;
+       width: 50px;
+       display: inline;
+       padding: 10px;
+    }
+
+    nav a{
+        padding: 20px;
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+    }

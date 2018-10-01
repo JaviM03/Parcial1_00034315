@@ -1,8 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: black;
    } 
+   body{
+       text-align: center;
    
+   
+       
+    }
     .navbar{
        
         background-color: black;
@@ -28,8 +34,35 @@
     }
 
     nav a{
-        padding: 20px;
+        paddiackground-color: rgba(255, 255, 255, 0.8);ng: 20px;
         color:white;
         font-weight: bold;
         text-decoration: none;
+    }
+
+    header{
+        height: 1000px;
+      
+        background-image: url("./public/images/concierto.jpg")
+
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    }
+    .container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    main article section div div img{
+        height:50em;
+    }
+    main{
+        background-color: white;
     }
